@@ -1,0 +1,21 @@
+.morph img {
+border:5px solid #158aee;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.morph img:hover {
+border:25px solid #CC0000;
+border-radius: 250px;
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
+margin: ;
+padding: ;
+margin-bottom:0px;
+overflow:hidden;
+}

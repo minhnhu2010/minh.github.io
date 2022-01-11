@@ -1,0 +1,129 @@
+<style>
+ body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+    background:lightgreen;
+}
+#preview  {
+     margin-top:50px;
+ margin-left:230px;
+     padding:30px;
+}
+a.download {
+  text-decoration:none;
+  background:#222;
+  color:#eee;
+  padding:10px;
+  font-family: 'Lato', sans-serif;
+  text-transform:uppercase;
+  font-size:14px;
+  font-weight:normal !important;
+  border-radius:5px;
+  border:2px solid #fff;
+  display:inline-block;
+  position:relative;
+  -webkit-transition: all 0.3s;
+ -moz-transition: all 0.3s;
+ transition: all 0.3s;
+}
+a:hover.download{
+  background:#000;
+  color:#fff;
+   -webkit-transition: all 0.3s;
+ -moz-transition: all 0.3s;
+ transition: all 0.3s;
+}
+a:active.download{
+  background:#000;
+  color:#fff;
+  box-shadow:none;
+   -webkit-transition: all 0.3s;
+ -moz-transition: all 0.3s;
+ transition: all 0.3s;
+}
+.download {
+  display:inline-block;
+  position:relative;
+  text-align:center;
+   box-shadow:4px 0 0 #eee; 
+}
+.download:after{
+  opacity:0;
+    background:#fff;
+  color:#000;
+  border-radius:5px;
+  bottom:50px;
+  content:attr(title);
+  left:30%;
+  padding:5px 15px;
+  position:absolute;
+  z-index:98;
+  width:220px;
+     box-shadow:4px 0 0 #eee; 
+-webkit-transform: translate(15px,-15px);
+  -moz-transform: translate(15px,-15px);
+  -o-transform: translate(15px,-15px);
+  transform: translate(15px,-15px);
+  -webkit-transition: width .2s, height .2s,-webkit-transform .2s;  /* For Safari 3.1 to 6.0 */
+transition: width .2s, height .2s, transform .2s;
+} 
+.download:before{
+    opacity:0;
+  color:#000;
+  border:solid;
+  border-color:#fff transparent; 
+  border-width:6px 6px 0 6px; 
+  bottom:44px; 
+  content:""; 
+  left:50%; 
+  position:absolute;
+  z-index:99;
+  -webkit-transform: translate(15px,-15px);
+  -moz-transform: translate(15px,-15px);
+  -o-transform: translate(15px,-15px);
+  transform: translate(15px,-15px);
+  -webkit-transition: width .2s, height .2s,-webkit-transform .2s;  /* For Safari 3.1 to 6.0 */
+transition: width .2s, height .2s, transform .2s;
+}
+.download:hover:after{
+    opacity:1;
+    background:#fff;
+  color:#000;
+  border-radius:5px;
+  bottom:50px;
+  content:attr(title);
+  left:30%;
+  padding:5px 15px;
+  position:absolute;
+  z-index:98;
+  width:220px;
+   -webkit-transform: translate(0px,0px);
+  -moz-transform: translate(0px,0px);
+  -o-transform: translate(0px,0px);
+  transform: translate(0px,0px);
+  -webkit-transition: width .2s, height .2s,-webkit-transform .2s;  /* For Safari 3.1 to 6.0 */
+transition: width .2s, height .2s, transform .2s;
+} 
+.download:hover:before{
+    opacity:1;
+  color:#000;
+  border:solid;
+  border-color:#fff transparent; 
+  border-width:6px 6px 0 6px; 
+  bottom:44px; 
+  content:""; 
+  left:50%; 
+  position:absolute;
+  z-index:99;
+  -webkit-transform: translate(0px,0px);
+  -moz-transform: translate(0px,0px);
+  -o-transform: translate(0px,0px);
+  transform: translate(0px,0px);
+  -webkit-transition: width .2s, height .2s,-webkit-transform .2s;  /* For Safari 3.1 to 6.0 */
+transition: width .2s, height .2s, transform .2s;
+}
+</style>
+</section>
+<div style='clear: both;'>
+</div>

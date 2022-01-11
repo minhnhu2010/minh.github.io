@@ -1,0 +1,32 @@
+.simple-player-container {
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.simple-player-container > div > ul {
+    margin: 0;
+    padding-left: 0;
+}
+.simpleplayer-play-control {
+    background-image: url('https://lh3.googleusercontent.com/-dOfT9qT-f-4/ViMpIfU_cII/AAAAAAAAC80/QdK-yvDShz4/s16-Ic42/play.png');
+    display: block;
+    width: 16px;
+    height: 16px;
+    bottom: -5px;
+    position: relative;
+}
+.simpleplayer-play-control:hover {
+    background-image: url('https://lh3.googleusercontent.com/-lZN5o_MQZ2I/ViMpITtZtqI/AAAAAAAAC8o/OD5HYQZaQko/s16-Ic42/playing.png');
+}
+.simpleplayer-stop-control {
+    background-image: url('https://lh3.googleusercontent.com/-styVF-v_CII/ViMpIbmhVWI/AAAAAAAAC8s/YOqus9TQkZM/s16-Ic42/stop.png');
+    display: block;
+    width: 16px;
+    height: 16px;
+    bottom: -5px;
+    position: relative;
+}
+.simpleplayer-stop-control:hover {
+    background-image: url('https://lh3.googleusercontent.com/-VyV4A_9_pYw/ViMpI8lOH4I/AAAAAAAAC8w/V3T8yM4dhVE/s16-Ic42/stoped.png');
+}
