@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'ecoicon';
-	src:url('https://sites.google.com/site/minhnhu11/ecoicon.eot');
-	src:url('https://sites.google.com/site/minhnhu11/ecoicon.dev.svg') format('embedded-opentype'),
-		url('https://sites.google.com/site/minhnhu11/ecoicon.woff') format('woff'),
-		url('https://sites.google.com/site/minhnhu11/ecoicon.ttf') format('truetype'),
-		url('https://sites.google.com/site/minhnhu11/ecoicon.svg') format('svg');
+	src:url('https://cdn.jsdelivr.net/gh/minhnhu2010/minh.github.io@master/ecoicon.eot');
+	src:url('https://cdn.jsdelivr.net/gh/minhnhu2010/minh.github.io@master/ecoicon.dev.svg') format('embedded-opentype'),
+		url('https://cdn.jsdelivr.net/gh/minhnhu2010/minh.github.io@master/ecoicon.woff') format('woff'),
+		url('https://cdn.jsdelivr.net/gh/minhnhu2010/minh.github.io@master/ecoicon.ttf') format('truetype'),
+		url('https://cdn.jsdelivr.net/gh/minhnhu2010/minh.github.io@master/ecoicon.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
