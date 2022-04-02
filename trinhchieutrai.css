@@ -1,4 +1,3 @@
-<style>
 .sl_kenny_m {position:relative;width:610px;height:340px;background:#000;}
                         .sl_kenny_m ul{display:none;}
                         .sl_kenny_m .ctn_sl_kenny{overflow:hidden;position:relative;}
@@ -23,4 +22,3 @@
                         .sl_kenny_m .focus_button{position:absolute;top:50%;z-index:10;width:42px;height:42px;overflow:hidden;text-indent:-9999em;margin-top:-25px;background:url(https://cdn.jsdelivr.net/gh/minhnhu2010/minh.github.io@master/focus-48.png) no-repeat left top;opacity:0;}
                         .sl_kenny_m .play_pause_button{position:absolute;top:50%;z-index:16;width:42px;height:42px;overflow:hidden;text-indent:-9999em;margin-top:-25px;background:url(https://cdn.jsdelivr.net/gh/minhnhu2010/minh.github.io@master/Pause-48.png) no-repeat left top;opacity:0;}
                         .sl_kenny_m .play_pause_button.play_button{background:url(https://cdn.jsdelivr.net/gh/minhnhu2010/minh.github.io@master/Play-48.png) no-repeat left top;}.sl_kenny_m_small {width:200px;height:100px;}
-</style>
