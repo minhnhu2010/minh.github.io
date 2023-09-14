@@ -1,5 +1,5 @@
 /Flashing Neon /
-var message="Copyright © 2013-2023 | Thiết kế bởi - Nguyễn Anh Minh | Hotline:(+84) 0395.995.293"
+var message="Copyright © 2013-2023 | Thiết kế bởi - Nguyễn Anh Minh | Hotline:(+84) 395.995.293"
 var neonbasecolor="black"
 var neontextcolor="red" 
 var neontexsize="4"
